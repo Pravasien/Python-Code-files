@@ -1,0 +1,7 @@
+Step 1: Start
+Step 2: Get two numbers from the user
+Step 3:Store the first value as "1st number"
+Step 4:Store the second value as "2nd number"
+Step 5: Perform multiplication of the set of numbers by multiplying them.
+step 6: Output the result.
+Step 7: End
