@@ -1,0 +1,10 @@
+a="BADMINTON"
+print(a[2])
+print(a[4:6])
+print(a[::-1])
+print(a[2:9:2])
+b="WeLcOmE"
+print(b.lower())
+print(b.upper())
+print(len(b))
+print(a+b)
