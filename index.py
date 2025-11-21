@@ -1,3 +1,7 @@
-User_input=int(input("Enter a number: "))
-User_input_square_rooted=User_input**0.5
-print("The square root of", User_input, "is", User_input_square_rooted)
+def Circumference():
+    from math import pi
+    radius=int(input("Enter the radius of the circle: "))
+    circumference = 2 * pi * radius
+    print("The circumference of the circle is: ", circumference)
+    return circumference
+Circumference()
