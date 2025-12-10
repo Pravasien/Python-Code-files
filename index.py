@@ -1,7 +1,6 @@
-def Circumference():
-    from math import pi
-    radius=int(input("Enter the radius of the circle: "))
-    circumference = 2 * pi * radius
-    print("The circumference of the circle is: ", circumference)
-    return circumference
-Circumference()
+from datetime import date,time,datetime
+today=date.today()
+now=datetime.now()
+print("Today's date:", today)
+print("Current time is : ",now)
+print("All the date components together are:", today.year, today.month, today.day)
