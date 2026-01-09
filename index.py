@@ -1,6 +1,16 @@
-from datetime import date,time,datetime
-today=date.today()
-now=datetime.now()
-print("Today's date:", today)
-print("Current time is : ",now)
-print("All the date components together are:", today.year, today.month, today.day)
+user_input=int(input("Enter a number: "))
+user_end=int(input("Enter the end number: "))
+lst=[]
+for i in range(user_input,user_end+1):
+    r=i**2
+    lst.append(r)
+print("Squares:", lst)
+el=[]
+od=[]
+for item in lst:
+    if item%2==0:
+        el.append(item)
+    else:
+        od.append(item)
+print("Even squares:", el)
+print("Odd squares:", od)
